@@ -1,10 +1,10 @@
-# videoconvers            
-       
+# videoconvers 
+Video chat application with WebRTC       
 ## Instructions
 
 First clone this repository.    
 ```
-$ git clone https://github.com/Evgeniy-Subbotin/videoconvers.git
+$ git clone https://github.com/Vorafas/videoconvers.git
 ```  
 Then go to the folder
 ```

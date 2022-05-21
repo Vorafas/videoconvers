@@ -1,0 +1,14 @@
+.containder {
+    width: 1060px;
+    margin: 300px auto;
+}
+
+.containder__title, .containder__description {
+    font-size: 50px;
+    margin: 10px 0;
+    color: #212529;
+}
+
+.containder__description {
+    font-size: 34px;
+}

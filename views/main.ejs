@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="js/libs/cookie.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <title>Главная</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container__header">
+            <div class="container__header-nav">
+                <nav><a href="#" class="active">Главная</a><a href="#">Чат</a><a href="#">Конференции</a><a
+                        href="#">Контакты</a></nav>
+            </div>
+            <div class="container__header-group">
+                <div class="container__header-search"><input type="text" placeholder="Поиск"></div>
+                <img src="img/icon-avatar.png">
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="containder__content">
+            <div class="content__action">
+                <div class="content__action-demonstration">
+                    <div class="content__action-conferencia"></div>
+                    <p>Новая конференция</p>
+                </div>
+                <div class="content__action-demonstration join-room">
+                    <div class="content__action-enter"></div>
+                    <p>Войти</p>
+                </div>
+                <div class="content__action-demonstration">
+                    <div class="content__action-toPlan"></div>
+                    <p>Запланировать</p>
+                </div>
+                <div class="content__action-demonstration">
+                    <div class="content__action-screenSharing"></div>
+                    <p>Демонстрация экрана</p>
+                </div>
+            </div>
+            <div class="calendar">
+                <div class="calendar-data">
+                    <h2>12:00</h2>
+                    <p>суббота, января 23</p>
+                </div>
+                <div class="calendar-group">
+                    <p>Сегодня нет предстоящих конференций</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>© 2021. Все права защищены</p>
+            <div class="footer-content">
+                <p>Политика cookie</p>
+                <p>Пользовательское соглашение</p>
+            </div>
+        </div>
+    </footer>
+    <div class="modal hide">
+        <div class="modal__header">
+            <p>Подключиться к конференции</p>
+        </div>
+        <div class="modal__body">
+            <input class="modal__body_input room-id-input" placeholder="Укажите идентификатор конференции" />
+            <input class="modal__body_input username-input" placeholder="Введите ваше имя" />
+        </div>
+        <div class="modal__footer">
+            <button class="modal__footer_button btn-secondary close-button">Отмена</button>
+            <button class="modal__footer_button btn-primary join-button">Войти</button>
+        </div>
+    </div>   
+    <div class="overlay hide"></div> 
+</body>
+
+</html>
